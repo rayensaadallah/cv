@@ -16,7 +16,7 @@ const Navbar = () => {
         setScrolled(true);
       } else {
         setScrolled(false);
-      }
+      } 
     };
 
     window.addEventListener("scroll", handleScroll);
