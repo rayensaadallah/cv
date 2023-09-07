@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Software Developer",
       icon: mobile,
     },
     {
@@ -116,50 +116,38 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Web Developer Intership",
+      company_name: "Esprit Connect",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - Augest 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "The project aims to develop an app for managing skills and careers, helping individuals and businesses track skills, manage employees, and plan career growth.",
+        "Designe and develop a Restful APIs for different modules in the project.",
+        "Create a secure authentication interface by leveraging OAuth2 and JWT protocols, while also integrating an email verification mechanism to enhance user validation.",
+        "Implement interceptors and guards to reinforce security and authorization management within the application",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Software Developer InterShip",
+      company_name: "MyDevUp",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2022 - Augest 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Develop a system to track animals and notify the user of the animal's positions",
+        "Implemente computer vision technologies to identify animals.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "IT Support Technician InterShip",
+      company_name: "A.M.I",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "July 2021 ",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,67 +186,71 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Forest",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Forest is a Dormitory, Restaurant and Event management Application for universities.",
       tags: [
         {
-          name: "react",
+          name: "Spring Boot",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Angular",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rayensaadallah/Forest-GestionRestaurant",
     },
     {
-      name: "Job IT",
+      name: "AirPort Management",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "It' an application designed for airports to manage their employees' operations,while also providing users with the ability to purchase tickets and make flight reservations.",
       tags: [
         {
-          name: "react",
+          name: "C#",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ASP.NET",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "SQL",
           color: "pink-text-gradient",
         },
+        {
+          name: "MVC",
+          color: "pink-text-gradient",
+        }
       ],
       image: jobit,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "GetAWay",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "GetAWay is a travel platform that allows users to purchase airplane tickets, book accommodations and explore recommended activities",
       tags: [
         {
-          name: "nextjs",
+          name: "JavaFx",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Symfony",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rayensaadallah/GetAWay_INNOVA",
     },
   ];
   
