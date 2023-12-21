@@ -1,13 +1,10 @@
 {
-  "homepage": "https://rayensaadallah.github.io/cv",
+  "homepage": "https://rayensaadallah.github.io/cv/",
   "name": "cv",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "serve": "serve dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
