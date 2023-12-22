@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "DevOps Developer",
       icon: creator,
     },
   ];
@@ -186,6 +186,27 @@ import {
   
   const projects = [
     {
+      name: "ClutechConnect",
+      description:
+        "CulTechConnect is a global platform uniting people worldwide to foster intercultural understanding, catalyze innovation, and celebrate diversity through collaboration and exploration.",
+      tags: [
+        {
+          name: "Spring Boot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Angular",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/ashref-ben/CulTech/tree/Rayen",
+    },
+    {
       name: "Forest",
       description:
         "Forest is a Dormitory, Restaurant and Event management Application for universities.",
@@ -205,6 +226,27 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/rayensaadallah/Forest-GestionRestaurant",
+    },
+    {
+      name: "GetAWay",
+      description:
+        "GetAWay is a travel platform that allows users to purchase airplane tickets, book accommodations and explore recommended activities",
+      tags: [
+        {
+          name: "JavaFx",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Symfony",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/rayensaadallah/GetAWay_INNOVA",
     },
     {
       name: "AirPort Management",
@@ -230,28 +272,7 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
-    },
-    {
-      name: "GetAWay",
-      description:
-        "GetAWay is a travel platform that allows users to purchase airplane tickets, book accommodations and explore recommended activities",
-      tags: [
-        {
-          name: "JavaFx",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Symfony",
-          color: "green-text-gradient",
-        },
-        {
-          name: "MySQL",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/rayensaadallah/GetAWay_INNOVA",
-    },
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };  
